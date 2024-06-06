@@ -14,23 +14,19 @@ where b_n represents each binary digit (either 0 or 1), and n represents the pos
 
 int main()
 {
-    int decimalNumber = 0, i = 0, remainder;
-    long long n;
+    int bn, dec = 0, remainder, i = 0;
 
-    // Prompt the user to enter a binary number
     printf("Enter a binary number: ");
-    scanf("%lld", &n);
+    scanf("%d", &bn);
 
     // Loop through each digit of the binary number
-    while (n != 0)
+    while (bn != 0)
     {
-        remainder = n % 10;                     // Get the last digit of the binary number
-        n /= 10;                                // Remove the last digit from the binary number
-        decimalNumber += remainder * pow(2, i); // Add the value to the decimal number
-        ++i;                                    // Increment the power
+        remainder = bn % 10;          // Get the last digit of the binary number
+        bn /= 10;                     // Remove the last digit from the binary number
+        dec += remainder * pow(2, i); // Add the value to the decimal number
+        ++i;                          // Increment the power
     }
-
-    // Print the result
-    printf("Decimal number: %d\n", decimalNumber);
+    printf("Decimal number: %d\n", dec);
     return 0;
 }
