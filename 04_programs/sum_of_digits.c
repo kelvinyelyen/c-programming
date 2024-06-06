@@ -6,7 +6,7 @@ int main()
     int num, sum = 0, remainder;
 
     printf("Enter a five-digit number: ");
-    scanf("%d", &num);
+    scanf("%f", &num);
 
     while (num != 0)
     {
