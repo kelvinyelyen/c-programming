@@ -35,7 +35,7 @@ int main()
         first = second;
         second = next;
     }
-    
+
     printf("\nSum of Fibonacci sequence up to %d terms: %d\n", N, sum);
 
     return 0;
