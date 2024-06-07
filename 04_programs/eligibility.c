@@ -13,5 +13,5 @@ main()
     if (math >= 60 && phy >= 50 && chem >= 40)
         printf("You are eligible for this course.");
     else
-        printf("You are not eligible for the course.");
+        printf("You are not eligible for the course.\n");
 }
