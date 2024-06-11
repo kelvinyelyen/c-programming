@@ -6,7 +6,11 @@ int main()
     int num, sum = 0, remainder;
 
     printf("Enter a five-digit number: ");
-    scanf("%f", &num);
+    scanf("%d", &num);
+    if (num < 10000 || num > 99999){
+        printf("Invalid");
+        return 1;
+    }
 
     while (num != 0)
     {
