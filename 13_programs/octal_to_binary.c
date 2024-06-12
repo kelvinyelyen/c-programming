@@ -18,26 +18,26 @@ int main()
 {
     int oct, dec = 0, bn = 0, remainder, i = 0;
 
-    printf("Enter octal number: ");
+    printf("Octal Number: ");
     scanf("%o", &oct);
-    printf("Decimal number: %d", oct);
-    // Convert octal to decimal
-    // while (oct != 0)
-    // {
-    //     remainder = oct % 8;         // Get the last octal digit
-    //     oct /= 8;                    // Remove the last octal digit
-    //     dec += remainder * pow(8, i); // Multiply by 8^i and add to decimal value
-    //     ++i;                          // Increment the power of 8
-    // }
-    // printf("Decimal number: %d\n", dec);
-    // // Reset counter for binary conversion
-    // i = 0;
 
-    // Convert decimal to binary
+    //Convert octal to decimal
     while (oct != 0)
     {
-        remainder = oct % 2;          // Get the last binary digit
-        oct /= 2;                     // Remove the last binary digit
+        remainder = oct % 8;         // Get the last octal digit
+        oct /= 8;                    // Remove the last octal digit
+        dec += remainder * pow(8, i); // Multiply by 8^i and add to decimal value
+        ++i;                          // Increment the power of 8
+    }
+    printf("Decimal number: %d\n", dec);
+    // Reset counter for binary conversion
+    i = 0;
+
+    // Convert decimal to binary
+    while (dec != 0)
+    {
+        remainder = dec % 2;          // Get the last binary digit
+    dec /= 2;                     // Remove the last binary digit
         bn += remainder * pow(10, i); // Multiply by 10^i and add to binary value
         ++i;                          // Increment the power of 10
     }

@@ -23,5 +23,5 @@ int main()
 // Function definition
 void printWelcomeMessage()
 {
-    printf("Welcome to the C Programming Tutorial!\n");
+    printf("Welcome to the C Programming!\n");
 }

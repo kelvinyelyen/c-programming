@@ -83,37 +83,37 @@ int main()
     //  printf("d = %d\n", d); // Output: d: -9
     //  printf("e = %d\n", e); // Output: e: -14
 
-    int a = 24; // Binary: 0001 1000
-    int b = 36; // Binary: 0010 0100
+    // int a = 24; // Binary: 0001 1000
+    // int b = 36; // Binary: 0010 0100
 
-    // a & b (Bitwise AND)
-    int result_and = a & b;
+    // // a & b (Bitwise AND)
+    // int result_and = a & b;
 
-    // a | b (Bitwise OR)
-    int result_or = a | b;
+    // // a | b (Bitwise OR)
+    // int result_or = a | b;
 
-    // a ^ b (Bitwise XOR)
-    int result_xor = a ^ b;
+    // // a ^ b (Bitwise XOR)
+    // int result_xor = a ^ b;
 
-    // ~a (Bitwise NOT of a)
-    int result_not_a = ~a;
+    // // ~a (Bitwise NOT of a)
+    // int result_not_a = ~a;
 
-    // ~b (Bitwise NOT of b)
-    int result_not_b = ~b;
+    // // ~b (Bitwise NOT of b)
+    // int result_not_b = ~b;
 
-    // a << 3 (Left shift a by 3)
-    int result_left_shift = a << 3;
+    // // a << 3 (Left shift a by 3)
+    // int result_left_shift = a << 3;
 
-    // b >> 3 (Right shift b by 3)
-    int result_right_shift = b >> 3;
+    // // b >> 3 (Right shift b by 3)
+    // int result_right_shift = b >> 3;
 
-    printf("a & b = %d\n", result_and); // 0 (00000000)
-    printf("a | b = %d\n", result_or); // 60 (111100)
-    printf("a ^ b = %d\n", result_xor); // 60 (111100)
-    printf("~a = %d\n", result_not_a); // -25
-    printf("~b = %d\n", result_not_b); // -37
-    printf("a << 3 = %d\n", result_left_shift); // 192
-    printf("b >> 3 = %d\n", result_right_shift); // 4
+    // printf("a & b = %d\n", result_and); // 0 (00000000)
+    // printf("a | b = %d\n", result_or); // 60 (111100)
+    // printf("a ^ b = %d\n", result_xor); // 60 (111100)
+    // printf("~a = %d\n", result_not_a); // -25
+    // printf("~b = %d\n", result_not_b); // -37
+    // printf("a << 3 = %d\n", result_left_shift); // 192
+    // printf("b >> 3 = %d\n", result_right_shift); // 4
 
     // int value = 5;      // Binary: 0000 0101
     // int shiftLeft = 3;  // Shift left by 3 positions
@@ -125,5 +125,10 @@ int main()
     // printf("Multiplying %d by 2^%d gives %d\n", value, shiftLeft, resultLeft);
     // printf("Dividing %d by 2^%d gives %d\n", value, shiftRight, resultRight);
 
-    return 0;
+    // int num;
+    // printf("Hexadecimal number: ");
+    // scanf("%x", &num);
+    // printf("Octal number: %o \n", num);
+    // return 0;
+       
 }
