@@ -24,9 +24,9 @@ int main()
     //Convert octal to decimal
     while (oct != 0)
     {
-        remainder = oct % 8;         // Get the last octal digit
-        oct /= 8;                    // Remove the last octal digit
-        dec += remainder * pow(8, i); // Multiply by 8^i and add to decimal value
+        remainder = oct % 2;         // Get the last octal digit
+        oct /= 2;                    // Remove the last octal digit
+        dec += remainder * pow(10, i); // Multiply by 8^i and add to decimal value
         ++i;                          // Increment the power of 8
     }
     printf("Decimal number: %d\n", dec);

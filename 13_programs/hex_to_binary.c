@@ -21,14 +21,14 @@ int main()
     scanf("%x", &hex);
 
     // Convert hexadecimal to decimal
-
+    dec = hex;
 
     // Convert decimal to binary
-    while (hex != 0)
+    while (dec != 0)
     {
-        remainder = hex % 2;          // Get the last binary digit
-        hex /= 2;                     // Remove the last binary digit
-        bn += remainder * pow(10, i); // Multiply by 10^i and add to binary value
+        remainder = dec % 2;          // Get the last binary digit
+        dec /= 2;                     // Remove the last binary digit
+        bn += remainder * pow(2, i); // Multiply by 10^i and add to binary value
         ++i;                          // Increment the power of 10
     }
     printf("Binary number: %d \n", bn);

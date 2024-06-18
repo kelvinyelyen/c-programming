@@ -32,10 +32,10 @@ int main()
     {
         remainder = dec % 8;           // Get the last octal digit
         dec /= 8;                      // Remove the last octal digit
-        oct += remainder * pow(10, i); // Multiply by 10^i and add to octal value
+        oct += remainder * pow(8, i); // Multiply by 10^i and add to octal value
         ++i;                           // Increment the power of 10
     }
-    printf("Octal number: %d\n", oct);
+    printf("Octal number: %o\n", oct);
 
     // // Reset variables for hexadecimal conversion
     // i = 0;
