@@ -6,7 +6,8 @@
  * - Commonly used multidimensional arrays are 2D arrays (matrices).
  * - Syntax for 2D array declaration:
  *   dataType arrayName[rows][columns];
- *   Memory Layout: matrix[0][0], matrix[0][1], matrix[0][2], matrix[0][3], matrix[1][0], matrix[1][1], ..., matrix[2][3]
+ * - Memory Layout: 
+ *   matrix[0][0], matrix[0][1], matrix[0][2], matrix[0][3], matrix[1][0], matrix[1][1], ..., matrix[2][3]
  */
 
 int main()
