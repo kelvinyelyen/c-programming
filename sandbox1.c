@@ -1,7 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
+    // char binary_str[] = "1010";
+    // int decimal = strtol(binary_str, NULL, 2);
+    // printf("%d\n", decimal);
+    // return 0;
+
     int number, i;
 
     printf("Enter a number: ");
@@ -32,6 +38,4 @@ int main()
             }
         }
     }
-
-    return 0;
 }
