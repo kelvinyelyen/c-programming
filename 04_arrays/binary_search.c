@@ -2,13 +2,25 @@
 
 int main()
 {
-    int array[] = {3, 4, 5, 6, 7, 8, 9};
-    int n = 7;
-    int target = 4; 
+    int size, i, target;
     int left = 0;
-    int right = n - 1;
     int result = -1;
 
+    printf("Enter the preferred size of array: ");
+    scanf("%d", &size);
+
+    int array[size];
+
+    for(i = 0; i < size; i++) {
+        printf("Enter Array[%d]: ", i);
+        scanf("%d", &array[i]);
+    }
+
+    printf("Enter target element: ");
+    scanf("%d", &target);
+
+    int right = size - 1;
+    
     while (left <= right)
     {
         int mid = left + (right - left) / 2;
