@@ -14,14 +14,14 @@ int main()
         printf("Enter Array[%d]: ", i);
         scanf("%d", &arr[i]);
     }
-   
+
     printf("Original array: ");
     for (i = 0; i < size; i++)
         printf("%d ", arr[i]);
 
     printf("\n");
 
-    for (i = 0; i < size ; i++)
+    for (i = 0; i < size; i++)
     {
         for (j = 0; j < size - i; j++)
         {

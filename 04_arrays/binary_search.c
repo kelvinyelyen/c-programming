@@ -11,7 +11,8 @@ int main()
 
     int array[size];
 
-    for(i = 0; i < size; i++) {
+    for (i = 0; i < size; i++)
+    {
         printf("Enter Array[%d]: ", i);
         scanf("%d", &array[i]);
     }
@@ -20,7 +21,7 @@ int main()
     scanf("%d", &target);
 
     int right = size - 1;
-    
+
     while (left <= right)
     {
         int mid = left + (right - left) / 2;
