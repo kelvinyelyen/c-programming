@@ -12,6 +12,9 @@ int main()
 
     arr = (int *)malloc(n * sizeof(int));
 
+    int size = sizeof(char);
+    printf("%d\n", size);
+
     if (arr == NULL)
     {
         printf("Memory not allocated.\n");
