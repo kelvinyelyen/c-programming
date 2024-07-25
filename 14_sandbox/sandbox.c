@@ -60,11 +60,11 @@ int main()
     //  printf("e = %d\n", e); // Output: e: 13
 
     // d
-    //  int a = 6, b, c, d, e;
-    //  b = ++a;
-    //  c = a++ + b--;
-    //  d = ++a + --b + c++;
-    //  e = a++ + b-- + ++c + d--;
+     int a = 6, b, c, d, e;
+     b = ++a;
+     c = a++ + b--;
+     d = ++a + --b + c++;
+     e = a++ + b-- + ++c + d--;
     //  printf("a = %d\n", a); // Output: a: 10
     //  printf("b = %d\n", b); // Output: b: 4
     //  printf("c = %d\n", c); // Output: c: 16
