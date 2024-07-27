@@ -45,7 +45,8 @@ main()
         if (pat[j] == '\0')
         {
             copy_loop = k;
-
+            rep_index = 0; // Reset rep_index for each match
+            
             // Append the replacement pattern to the new string
             while (rep_pat[rep_index] != '\0')
             {
